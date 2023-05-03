@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+body {
+  background: rgb(0,212,255);
+  background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(19,124,222,1) 0%, rgba(20,131,229,1) 79%, rgba(15,82,183,1) 100%, rgba(9,16,121,1) 100%); 
+}
+
 .app {
   max-width: 400px;
   margin: auto;
@@ -40,7 +45,7 @@
 }
 
 .app form input {
-  border: 2px solid #eee;
+  border: 2px solid #092242;
   padding: 5px 10px 5px 50px;
   font-size: 18px;
   line-height: 30px;
@@ -51,7 +56,7 @@
 }
 
 .app .task-row {
-  border: 2px solid #eee;
+  border: 2px solid #092242;
   padding: 10px;
   font-size: 18px;
   line-height: 30px;
@@ -65,7 +70,7 @@
 
 .app .task-row .icon {
   font-size: 25px;
-  color: #4b00ff;
+  color: #b6002e;
 }
 
 .app .task-row p {
